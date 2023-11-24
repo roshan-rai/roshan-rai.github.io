@@ -49,8 +49,22 @@
                         </p>
                     </div>
                 </div>
+                
             </div>
+            
         </div>
     </section>
+    <img id="toggleImage" src="girafe.jpg" width="200" height="200">
+    <button type="button" onclick="toggleImage()">Toggle Image</button>
+    
+    function toggleImage() {
+        var image = document.getElementById("toggleImage");
+        if (image.src.endsWith("1.jpg")) {
+          image.src = "1.jpg";
+        } else {
+          image.src = "2.jpg";
+        }
+      }
+
 </body>
 </html>
