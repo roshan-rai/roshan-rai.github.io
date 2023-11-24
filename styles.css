@@ -50,3 +50,7 @@ a {
 .main-content {
     padding: 40px;
 }
+a:hover,
+a:active {
+  border: 2px solid white;
+}
