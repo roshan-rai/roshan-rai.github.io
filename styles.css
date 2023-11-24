@@ -58,7 +58,7 @@ a {
     
 a:hover,
 a:active {
-  border: 2px solid white;
+  border: 2px solid neongreen;
 }
 .table img {
     max-height: 1200px;
