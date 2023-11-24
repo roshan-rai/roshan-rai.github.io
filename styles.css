@@ -60,3 +60,8 @@ a:hover,
 a:active {
   border: 2px solid white;
 }
+.table img {
+    max-width: 20px;
+    max-height: 30px;
+}
+
