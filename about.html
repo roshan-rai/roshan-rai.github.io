@@ -43,28 +43,30 @@
                             
                             Costa Rica provided a diverse environment with people from nearly 70 different countries living in our boarding school. This experience broadened my horizons and taught me invaluable life lessons. One of my passions is traveling; I find joy in exploring new places. From Nepal to Costa Rica and now the USA, each journey adds a unique flavor to my story.
                             
-                            I completed a study abroad program in South Korea n Fall 2022, embracing a different learning environment. Beyond academics, I play basketball, sing, and play guitar for fun. I love learning new skills specially new physical activities. 
+                            I completed a study abroad program in South Korea in Fall 2022, embracing a different learning environment. Beyond academics, I play basketball, sing, and play guitar for fun. I love learning new skills, especially new physical activities. 
                             
                             The future holds exciting possibilities, and I can't wait to unfold what lies ahead.
                         </p>
                     </div>
                 </div>
-                
             </div>
-            
         </div>
-    </section>
-    <img id="toggleImage" src="girafe.jpg" width="200" height="200">
-    <button type="button" onclick="toggleImage()">Toggle Image</button>
-    
-    function toggleImage() {
-        var image = document.getElementById("toggleImage");
-        if (image.src.endsWith("1.jpg")) {
-          image.src = "1.jpg";
-        } else {
-          image.src = "2.jpg";
-        }
-      }
 
+        <!-- Toggle Image Button -->
+        <button type="button" onclick="toggleImage()"> Next </button>
+        <img id="toggleImage" src="giraffe.jpg" width="100%" height="400" style="object-fit: cover;">
+    </section>
+
+    <!-- JavaScript for Toggle Image Function -->
+    <script>
+        function toggleImage() {
+            var image = document.getElementById("toggleImage");
+            if (image.src.endsWith("1.jpg")) {
+                image.src = "1.jpg";
+            } else {
+                image.src = "2.jpg";
+            }
+        }
+    </script>
 </body>
 </html>
