@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -11,122 +12,131 @@
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="nav-item" style="position: relative;">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/employment.html">Employment</a></li>
-                <li><a href="/project.html">Project</a></li>
-                <li><a href="/skill.html">Skill set</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/resume.html">Resume</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/employment.html">Employment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/project.html">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/skill.html">Skill set</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/resume.html">Resume</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <div class="container" style="max-width: 800px;
-                                margin: 20px auto;
-                                padding: 20px;
-                                border: 0px solid #ccc;">
-        <div class="row" style=" --bs-gutter-x: 1.5rem;
-                                --bs-gutter-y: 0;
-                                display: flex;
-                                flex-wrap: wrap;
-                                margin-top: calc(-1 * var(--bs-gutter-y));
-                                margin-right: calc(-5 * var(--bs-gutter-x));
-                                margin-left: calc(-5 * var(--bs-gutter-x));">
+    <div class="container" style="max-width: 800px; margin: 20px auto; padding: 20px; border: 0px solid #ccc;">
+        <div class="row">
             <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
-                    <img src="campCounselor.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                     <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 my-4 mx-auto">
-                <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
-                    <img src="campCounselor.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Camp Counsellor</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                   <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 my-4 mx-auto">
-                <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">OU Fooding</h5>
+                        <p class="card-text">Couch Restaurant / Server</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/housing.html">Responsibilities</a>
+                            </button>
+                        </div>
                     </div>
-                   <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">OU IT</h5>
+                        <p class="card-text">Call Operator</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/callOp.html">Responsibilities</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">OU IT</h5>
+                        <p class="card-text">Service Operator</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/serviceSpecialist.html">Responsibilities</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-               <div class="row" style=" --bs-gutter-x: 1.5rem;
-                                --bs-gutter-y: 0;
-                                display: flex;
-                                flex-wrap: wrap;
-                                margin-top: calc(-1 * var(--bs-gutter-y));
-                                margin-right: calc(-5 * var(--bs-gutter-x));
-                                margin-left: calc(-5 * var(--bs-gutter-x));">
+
+        <div class="row">
             <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
+                        <h5 class="card-title">OU Resident Life</h5>
+                        <p class="card-text">Community Assistant</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/housing.html">Responsibilities</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
+                        <h5 class="card-title">OU Jeannine Rainbolt College of Education</h5>
+                        <p class="card-text">Camp Counselor</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/campCounselor.html">Responsibilities</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="center-button">
-                        <button class="custom-button" onclick="changeColor()"><a href="/campCounselor.html">More Details</a></button>
+                        <h5 class="card-title">OU Price College of Business (MIS)</h5>
+                        <p class="card-text">Teaching Assistant</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/ta.html">Responsibilities</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">American Fidelity</h5>
+                        <p class="card-text">IT Intern</p>
+                        <div class="accordion">
+                            <button type="button">
+                                <a href="/af.html">Responsibilities</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
-     <script>
-        function changeColor() {
-            var button = document.querySelector('.custom-button');
-            button.style.backgroundColor = 'white';
-            button.style.color = 'lightblue';
-        }
-    </script>
 </body>
 </html>
