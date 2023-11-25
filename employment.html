@@ -26,9 +26,14 @@
                                 margin: 20px auto;
                                 padding: 20px;
                                 border: 0px solid #ccc;">
-               <div class="row row-cols-1 row-cols-md-2 g-4">
-            <!-- Repeat the following card block for each card -->
-            <div class="col">
+        <div class="row" style=" --bs-gutter-x: 1.5rem;
+                                --bs-gutter-y: 0;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-top: calc(-1 * var(--bs-gutter-y));
+                                margin-right: calc(-5 * var(--bs-gutter-x));
+                                margin-left: calc(-5 * var(--bs-gutter-x));">
+            <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
                     <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
@@ -37,6 +42,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <div class="accordion" id="accordionOne">
+                        <!-- Updated ID to be unique -->
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -51,8 +57,8 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="col">
+            </div>
+            <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
                     <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
@@ -60,14 +66,15 @@
                         <h5 class="card-title">Call Operator</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="accordion" id="accordionOne">
+                    <div class="accordion" id="accordionTwo">
+                        <!-- Updated ID to be unique -->
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
                                     Responsibilities
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
+                            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionTwo">
                                 <div class="accordion-body">
                                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
@@ -75,8 +82,8 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="col">
+            </div>
+            <div class="col-md-4 my-4 mx-auto">
                 <div class="card" style="width: 18rem;">
                     <!-- Card content here -->
                     <img src="callOp.jpg" class="card-img-top" alt="...">
@@ -84,14 +91,15 @@
                         <h5 class="card-title">Call Operator</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="accordion" id="accordionOne">
+                    <div class="accordion" id="accordionThree">
+                        <!-- Updated ID to be unique -->
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
                                     Responsibilities
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
+                            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionThree">
                                 <div class="accordion-body">
                                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
@@ -99,82 +107,91 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
-                    <img src="callOp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="accordion" id="accordionOne">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Responsibilities
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
-                    <img src="callOp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="accordion" id="accordionOne">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Responsibilities
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <!-- Card content here -->
-                    <img src="callOp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Call Operator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="accordion" id="accordionOne">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Responsibilities
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-             
+            </div>
         </div>
-
+               <div class="row" style=" --bs-gutter-x: 1.5rem;
+                                --bs-gutter-y: 0;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-top: calc(-1 * var(--bs-gutter-y));
+                                margin-right: calc(-5 * var(--bs-gutter-x));
+                                margin-left: calc(-5 * var(--bs-gutter-x));">
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <!-- Card content here -->
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Call Operator</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="accordion" id="accordionFour">
+                        <!-- Updated ID to be unique -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                    Responsibilities
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFour">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <!-- Card content here -->
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Call Operator</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="accordion" id="accordionFive">
+                        <!-- Updated ID to be unique -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                                    Responsibilities
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionFive">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <!-- Card content here -->
+                    <img src="callOp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Call Operator</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="accordion" id="accordionSix">
+                        <!-- Updated ID to be unique -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">
+                                    Responsibilities
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionSix">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
