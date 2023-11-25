@@ -33,7 +33,7 @@
       <div class="card-body">
         <h5 class="card-title"> DataBase </h5>
         <p class="card-text">This is a project i did with my team, I had the pleasure of working with. We completed this project working really hard and I am proud of it. / Server</p>
-        <a href="" class="btn btn-primary">Download File</a>
+        <a onClick="downloadZip()" class="btn btn-primary">Download File</a>
       </div>
     </div>
   </div>
@@ -74,14 +74,14 @@
    <script>
         function downloadDataBase() {
             // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-            var pdfUrl = 'files/Resume Roshan Fall_2023.pdf';
+            var pdfUrl = 'files/GroupProject_Template.pdf';
 
             // Create a link element
             var link = document.createElement('a');
             link.href = pdfUrl;
 
             // Specify the download attribute along with the desired file name
-            link.download = 'dataBase.pdf';
+            link.download = 'Database.pdf';
 
             // Append the link to the document
             document.body.appendChild(link);
@@ -94,14 +94,14 @@
         }
 	         function downloadZip() {
             // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-            var pdfUrl = 'files/Resume Roshan Fall_2023.pdf';
+            var pdfUrl = 'files/GroupProject_Template.pdf';
 
             // Create a link element
             var link = document.createElement('a');
             link.href = pdfUrl;
 
             // Specify the download attribute along with the desired file name
-            link.download = 'dataBase.pdf';
+            link.download = 'DataBase.pdf';
 
             // Append the link to the document
             document.body.appendChild(link);
