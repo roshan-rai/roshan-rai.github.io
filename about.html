@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #toggleImage:hover {
+            cursor: pointer;
+        }
+    </style>
     <title>About</title>
 </head>
 
@@ -28,12 +33,12 @@
     <section>
         <h1 class="card-title" style="margin-bottom: 0.75rem; text-align: center;">About me</h1>
         <div class="container">
-            <img id="toggleImage" src="1.jpg" class="img-fluid mb-3" style="object-fit: cover;">
+            <img id="toggleImage" src="1.jpg" class="img-fluid mb-3" style="object-fit: cover;" onmouseover="hoverImage()" onmouseout="unhoverImage()">
             <div style="width: 100%; max-width: 1000px;">
                 <div>
                     <div>
                         <div class="card-body">
-                            <h6  style="margin-bottom: 0.75rem; text-align: center;">Hello and Namaste</h6>
+                            <h6 style="margin-bottom: 0.75rem; text-align: center;">Hello and Namaste</h6>
                             <p class="card-text">
                                 I'm Roshan Rai, originally from Lalitpur, Nepal. My educational journey began at Nalanda Secondary Boarding School in Nepal, where I spent my formative years until the 10th grade. Seeking a broader experience, I ventured to UWC Costa Rica for high school, earning my IB diploma.
 
@@ -50,17 +55,18 @@
                 </div>
             </div>
         </div>
-        <button type="button" onclick="toggleImage()">Next</button>
     </section>
 
     <script>
-        function toggleImage() {
+
+        function hoverImage() {
             var image = document.getElementById("toggleImage");
-            if (image.src.endsWith("1.jpg")) {
-                image.src = "12.jpg";
-            } else {
-                image.src = "1.jpg";
-            }
+            image.src = "12.jpg";
+        }
+
+        function unhoverImage() {
+            var image = document.getElementById("toggleImage");
+            image.src = "1.jpg";
         }
     </script>
 </body>
