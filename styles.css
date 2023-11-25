@@ -128,3 +128,22 @@ ul {
         .nav-item a:hover {
             color: #555; /* Change text color on hover */
         }
+.center-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .custom-button {
+            background-color: lightblue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .custom-button:hover {
+            background-color: white;
+            color: lightblue;
+        }
