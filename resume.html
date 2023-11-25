@@ -93,7 +93,30 @@
 
             <!-- Add other work experiences similarly -->
         </section>
+        <button class="floating-button" onclick="downloadPDF()">Top</button>
     </div>
+    <script>
+        function downloadPDF() {
+            // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
+            var pdfUrl = 'resume.pdf';
+
+            // Create a link element
+            var link = document.createElement('a');
+            link.href = pdfUrl;
+
+            // Specify the download attribute along with the desired file name
+            link.download = 'resume.pdf';
+
+            // Append the link to the document
+            document.body.appendChild(link);
+
+            // Trigger a click on the link to start the download
+            link.click();
+
+            // Remove the link from the document
+            document.body.removeChild(link);
+        }
+    </script>
 </body>
 
 </html>
