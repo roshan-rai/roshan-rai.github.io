@@ -132,9 +132,3 @@ ul {
         .nav-item a:hover {
             color: #555; /* Change text color on hover */
         }
-
-        .main-content {
-            margin-top: 100px; /* Adjust margin to prevent content from being covered by the fixed header */
-            padding: 20px;
-        }
-
