@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
     <title>Roshan Rai</title>
 </head>
+
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="nav-item" style="position: relative;">
+        <nav class="nav-item">
             <ul>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/employment.html">Employment</a></li>
@@ -23,8 +26,7 @@
 
     <!-- Content Section -->
     <section class="main-content">
-           <table class="table">
-
+        <table class="table">
             <tbody>
                 <tr>
                     <td>
@@ -33,14 +35,26 @@
                             Hello and welcome to my portfolio website! I appreciate you taking the time to explore my profile. This site is a personal space where I'm excited to showcase my achievements, projects, and experiences. It serves as a window into my professional journey, allowing me to share not just the technical aspects of my work but also the passion, creativity, and dedication that drive me. This portfolio is more than a collection of projects; it's a reflection of who I am, the challenges I've tackled, and the skills I've developed along the way. I hope this platform provides you with insights into my professional story and the value I can bring to future collaborations. Thank you for being here, and feel free to reach out with any questions or opportunities.
                         </p>
                     </td>
-                     <td>
+                    <td>
                         <!-- my professional -->
                         <img src="headshot.jpg" alt="Professional Picture">
                     </td>
-
                 </tr>
             </tbody>
-           </table>
+        </table>
     </section>
+
+    <script>
+        // Add JavaScript for handling the transparency of the navigation bar on scroll
+        window.onscroll = function () {
+            var header = document.querySelector("header");
+            if (window.pageYOffset > 50) {
+                header.style.backgroundColor = "rgba(255, 255, 255, 1)"; // Change to opaque color
+            } else {
+                header.style.backgroundColor = "rgba(255, 255, 255, 0.8)"; // Change back to transparent color
+            }
+        };
+    </script>
 </body>
+
 </html>
