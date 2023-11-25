@@ -130,7 +130,6 @@ ul {
         .nav-item a {
             text-decoration: none;
             color: #333;
-            font-weight: bold;
             font-size: 16px;
             transition: color 0.3s ease; /* Add a smooth transition effect for text color */
         }
