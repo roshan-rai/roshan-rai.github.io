@@ -55,7 +55,7 @@
       <div class="card-body">
         <h5 class="card-title">High School Project</h5>
         <p class="card-text">Extended Essay</p>
-        <a href="" class="btn btn-primary">Download File (pdf)</a>
+        <a onClick="downloadEE()" class="btn btn-primary">Download File (pdf)</a>
       </div>
     </div>
   </div>
@@ -112,16 +112,16 @@
             // Remove the link from the document
             document.body.removeChild(link);
         }
-	       function downloadEE() {
+	       function downloadIP() {
             // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-            var pdfUrl = 'files/Resume Roshan Fall_2023.pdf';
+            var pdfUrl = 'files/hnd264-A.pdf';
 
             // Create a link element
             var link = document.createElement('a');
             link.href = pdfUrl;
 
             // Specify the download attribute along with the desired file name
-            link.download = 'dataBase.pdf';
+            link.download = 'EE.pdf';
 
             // Append the link to the document
             document.body.appendChild(link);
@@ -132,16 +132,16 @@
             // Remove the link from the document
             document.body.removeChild(link);
         }  
-	    function downloadE-Commmerce() {
+	    function downloadEE() {
             // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-            var pdfUrl = 'files/Resume Roshan Fall_2023.pdf';
+            var pdfUrl = 'files/hnd264-A.pdf';
 
             // Create a link element
             var link = document.createElement('a');
             link.href = pdfUrl;
 
             // Specify the download attribute along with the desired file name
-            link.download = 'dataBase.pdf';
+            link.download = 'EE.pdf';
 
             // Append the link to the document
             document.body.appendChild(link);
