@@ -147,3 +147,14 @@ ul {
             background-color: white;
             color: lightblue;
         }
+.floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF; /* Choose your button color */
+            color: #fff; /* Choose your text color */
+            padding: 15px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
