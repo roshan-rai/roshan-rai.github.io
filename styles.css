@@ -139,20 +139,7 @@ ul {
         }
 
         .main-content {
-            margin-top: 80px; /* Adjust margin to prevent content from being covered by the fixed header */
+            margin-top: 100px; /* Adjust margin to prevent content from being covered by the fixed header */
             padding: 20px;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        p {
-            margin-bottom: 20px;
         }
 
