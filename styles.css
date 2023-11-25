@@ -151,14 +151,10 @@ ul {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #007BFF; /* Choose your button color */
-            color: red; /* Choose your text color */
+            background-color: lightblue; /* Choose your button color */
+            color: white; /* Choose your text color */
             padding: 25px;
             border: none;
             border-radius: 90%;
             cursor: pointer;
         }
-.card-img-top {
-    width: 100%;
-    height: 60%;
-}
