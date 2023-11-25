@@ -43,7 +43,7 @@
       <div class="card-body">
         <h5 class="card-title">Individual Project - </h5>
         <p class="card-text"></p>
-        <a href="" class="btn btn-primary">Download zip file</a>
+        <a onClick="downloadIP()" class="btn btn-primary">Download zip file</a>
       </div>
     </div>
   </div>
@@ -114,14 +114,14 @@
         }
 	       function downloadIP() {
             // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-            var pdfUrl = 'files/hnd264-A.pdf';
+            var pdfUrl = 'files//individual-project-roshan-rai-master (1).zip';
 
             // Create a link element
             var link = document.createElement('a');
             link.href = pdfUrl;
 
             // Specify the download attribute along with the desired file name
-            link.download = 'EE.pdf';
+            link.download = 'IP.zip';
 
             // Append the link to the document
             document.body.appendChild(link);
