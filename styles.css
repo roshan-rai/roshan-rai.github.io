@@ -103,4 +103,57 @@ ul {
 .role {
     margin-bottom: 20px;
 }
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Set a background color for the body */
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8); /* Initial transparent background color */
+            z-index: 1000; /* Set a high z-index to make sure it's above other content */
+            transition: background-color 0.3s ease; /* Add a smooth transition effect */
+        }
+
+        .nav-item {
+            padding: 20px;
+            text-align: center;
+            list-style: none;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease; /* Add a smooth transition effect for text color */
+        }
+
+        .nav-item a:hover {
+            color: #555; /* Change text color on hover */
+        }
+
+        .main-content {
+            margin-top: 80px; /* Adjust margin to prevent content from being covered by the fixed header */
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
 
